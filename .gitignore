@@ -14,8 +14,6 @@ Android/*.sh
 
 
 # Text
-Text/*.png
-Text/arial.ttf
 Text/Testing/
 Text/CMakeFiles/
 Text/Makefile
