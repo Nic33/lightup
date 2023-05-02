@@ -18,6 +18,9 @@ Text/Testing/
 Text/CMakeFiles/
 Text/Makefile
 Text/*.cmake
+Text/*.txt 
+Text/*.tcl
+Text/*.a
 
 # Web
 Web/src/*.c
