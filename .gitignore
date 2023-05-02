@@ -16,7 +16,10 @@ Android/*.sh
 Images/
 
 # Text
-# Rien à garder
+Text/*.png
+Text/arial.ttf
+Text/Testing/
+Text/CMakeFiles/
 
 # Web
 Web/src/*.c
