@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libgame.a CMakeFiles/game.dir/game.c.o CMakeFiles/game.dir/game_ext.c.o CMakeFiles/game.dir/game_aux.c.o CMakeFiles/game.dir/game_private.c.o CMakeFiles/game.dir/queue.c.o CMakeFiles/game.dir/game_tools.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libgame.a

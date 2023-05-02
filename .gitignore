@@ -1,0 +1,23 @@
+# racine
+/*.c
+/*.h
+/CMakeLists.txt
+/Doxyfile
+
+# Android
+Android/assets/
+Android/jni/
+Android/res/
+Android/src/
+Android/*.xml
+Android/*.sh
+
+# Images
+Images/
+
+# Text
+# Rien à garder
+
+# Web
+Web/src/*.c
+Web/src/*.h

@@ -1,0 +1,93 @@
+body{
+    text-align:center;
+    font-family: 'Fredoka One', cursive;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    background: lightgray;
+    outline: 5px solid rgb(0, 0, 0);
+    /* Hint: do not add padding to canvas! */
+}
+#timer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#help{
+
+    height: auto;
+    width: auto;
+    margin: 50px;
+
+    padding:30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
+}
+#Panel{
+
+    margin :50px auto;
+
+    max-width: 600px;
+    width: auto;
+    height: auto;
+
+    padding :20px;
+
+    background-color: bisque;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.Panel2{
+
+    padding-bottom:20px;
+    
+}
+
+.Button {
+    font-size: 100%;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 0px solid rgb(255, 255, 255);
+    color: Black;
+    background : bisque;
+
+}
+.Button:hover {
+    background : rgb(0, 217, 255);
+
+}
+.ButtonTime {
+    font-size: 100%;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 0px solid rgb(255, 255, 255);
+    color: Black;
+    background : rgb(1, 115, 255);
+
+}
+.ButtonTime:hover {
+    background : rgb(0, 217, 255);
+
+}
+/* si la taille de la fenetre est inférieur à 600 px, alors on doit modifier la taille des panels pour tout faire rentrer.*/
+@media (max-width:600px) {
+    #Panel{
+        width: auto;
+        margin: 30px;
+
+    }
+    #help{
+        width: auto;
+
+        margin: 30px;
+
+
+    }
+
+}
+        
