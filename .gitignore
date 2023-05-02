@@ -12,8 +12,6 @@ Android/src/
 Android/*.xml
 Android/*.sh
 
-# Images
-Images/
 
 # Text
 Text/*.png
