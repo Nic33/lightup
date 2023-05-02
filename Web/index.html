@@ -1,18 +1,107 @@
 <!DOCTYPE html>
-<!-- Ce fichier n'est pas obligatoire -->
+
+<link href="./css/Page1.css" rel="stylesheet" type="text/css" media="screen, projection" />
 <html>
     <head>
-        <meta http-equiv="refresh" content="0; lightup-08e.html" />
+        <meta name=viewport content="width=device-width, initial-scale=1">
 
-        <title>redirection</title>
-        
+        <link rel="icon" type="image/png" href="./src/Images/st_50.png" />
+
+        <title>Game</title>
+
         <meta charset="utf-8" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+        </style>
     </head>
-    <body>
 
-        <h1>
-            Redirection
-        </h1>
+    <body >
+    <h1>lightup-08e</h1>
+<!--  Nous avons mis trois boutons qui permettent d'ajouter des options pour confort de l'utilisateur-->
 
-    </body>
+    <input type="button" class = "ButtonTime" onclick="Timer()" value="Timer">
+    <input type="button" class = "Button" onclick="Help()" value="Help">
+    <input type="button" class = "Button" onclick="DarkMode()" value="DarkMode">
+
+    <div id = "help">
+        <p> The aim of the game is to light up all the blank squares. 
+            To do this, you have to place lightbulbs on various squares in the grid. 
+            However not all squares can have lightbulbs. 
+            And some squares require a certain number of lightbulbs touching them. 
+            The Darth Vader squares can touch any number of lightbulbs. 
+            Click a square once to place a lightbulb. 
+            Click it twice to place a marker, so that you know a lightbulb will not go there. 
+            Click a third time and to remove the marker, thus making it blank again. 
+            On the bottom of the screen there are buttons for help, quit,  redo a move, undo a move, save the game and restart the game. 
+            If you find yourself unable to solve the game, just click on "Solve", he'll know how to solve it. 
+        </p>
+    </div>
+<!-- Le jeu se trouve dans des panels que j'ai codé en CSS. Ce la permet de rendre le site web plus joli.-->
+    <div id="Panel">
+        <div class="Panel2">
+            <input type="button" value="New" onclick="New()"> 
+            <input type="button" value="Undo" onclick="Undo()"> 
+            <input type="button" value="Redo" onclick="Redo()"> 
+            <input type="button" value="restart" onclick="Restart()"> 
+            <input type="button" value="Solve" onclick="Solve()"> 
+            <hr>
+
+            <div>
+                <input type="checkbox" id="wrapping" name="wrapping" checked>
+                <label for="wrapping">wrapping</label>
+  
+                <select name="Walls" id = "Walls">
+                    <option value="">nb of walls</option>
+                    <option value="20">20%</option>
+                    <option value="40">40%</option>
+                    <option value="60">60%</option>
+                    <option value="80">80%</option>
+
+                </select>
+
+                <select name="Difficulty" id = "Difficulty">
+                    <option value="">Size</option>
+                    <option value="1">5X5</option>
+                    <option value="2">7X7</option>
+                    <option value="3">9X9</option>
+                </select>
+            </div>
+        </div>
+<!-- Nous ajons ajouté un timer pour calculer en combien de temps l'utilisateur resoud le jeu-->
+        <div id="timer">
+
+            <div class="write_timer">
+                <span >0 h</span> :
+                <span >0 min</span> :
+                <span >0 s</span> :
+                <span >0 ms</span>
+
+            </div>
+            <button id="start" onclick="start_ch()">Start</button>
+            <button id="stop" onclick="stop_ch()" >Stop</button>
+            <button id="reset" onclick="reset_ch()" >Reset</button>
+
+        </div>   
+          
+        <canvas id='mycanvas' width="300px" height="300px"></canvas>
+        
+    </div>
+    <hr>
+    <div id = "Thanks">
+
+    <p><en>nicolas.dubuisson@etu.u-bordeaux.fr</en></p>
+    <p><en>lucy-jean.curtis@etu.u-bordeaux.fr</en></p>
+    <p><en>hugo.depoumps@etu.u-bordeaux.fr</en></p>
+
+    </div>
+    <!-- ********************* script ********************* -->
+
+    <script src="script/game.js"></script>
+    <script src="script/demo.js"> </script>
+<!--     <script src="script/canvas.js"> </script>
+ -->    <script src="script/canvas.js"> </script>
+
+
+</body>
+
 </html>
