@@ -8,8 +8,6 @@
 Web/src/*.c
 Web/src/*.o
 Web/src/*.h
-
-Web/script/*.wasm
 Web/script/*.c
 Web/script/*.o
 Web/script/*.a
