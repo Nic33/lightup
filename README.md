@@ -16,7 +16,7 @@ et tapez la commande suivante :
 
 `./game_text`
 
-<u> Langages utilisés : </u>
+Langages utilisés :
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
 
@@ -30,7 +30,7 @@ Toujours dans le dossier `Text`, tapez la commande suivante :
 
 `./game_sdl`
 
-<u> Langages utilisés : </u>
+Langages utilisés :
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
 
@@ -47,7 +47,7 @@ Pour pouvoir utiliser les fonctions que l'on a faites en `C` sur le web, nous av
 
 Pour tester le projet, il vous suffit de lancer le fichier `index.html` avec [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-<u> Langages utilisés : </u>
+Langages utilisés :
 
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
 
@@ -55,6 +55,6 @@ Pour tester le projet, il vous suffit de lancer le fichier `index.html` avec [Li
 
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
 
-## Des problèmes ? :
+## Des problèmes ? 
 
 N'hesitez pas à me contacter [ici](https://www.nicolasdubuisson.fr/).
