@@ -23,5 +23,9 @@ Text/*.tcl
 Text/*.a
 
 # Web
-Web/src/*.c
-Web/src/*.h
+Web/src/
+Web/script/*.wasm
+Web/script/*.c
+Web/script/*.o
+Web/script/*.a
+Web/script/Makefile
