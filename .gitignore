@@ -4,6 +4,17 @@
 /CMakeLists.txt
 /Doxyfile
 
+# Web
+Web/src/*.c
+Web/src/*.o
+Web/src/*.h
+
+Web/script/*.wasm
+Web/script/*.c
+Web/script/*.o
+Web/script/*.a
+Web/script/Makefile
+
 # Android
 Android/assets/
 Android/jni/
@@ -21,11 +32,3 @@ Text/*.cmake
 Text/*.txt 
 Text/*.tcl
 Text/*.a
-
-# Web
-Web/src/
-Web/script/*.wasm
-Web/script/*.c
-Web/script/*.o
-Web/script/*.a
-Web/script/Makefile
